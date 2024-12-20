@@ -1,0 +1,106 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.left-panel, .right-panel {
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 8px;
+  height: 500px;
+  overflow: auto;
+}
+
+.title {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Input and Button Styles */
+.input, .button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input {
+  background-color: #555;
+  color: white;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Caption Table */
+.table-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.caption-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.caption-table th, .caption-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.caption-table th {
+  background-color: #555;
+  color: white;
+}
+
+.caption-table td {
+  color: white;
+}
+
+.caption-link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.caption-link:hover {
+  color: #0056b3;
+}
+
+/* Caption Bar */
+.caption-bar {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
